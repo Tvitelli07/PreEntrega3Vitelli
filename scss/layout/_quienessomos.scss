@@ -1,0 +1,30 @@
+@import "utils/mixin" ;
+@import "utils/variables" ;
+
+body{
+    h1{
+        @include titulos
+    }
+}
+
+div{
+    h2{
+        background-color: $color-principal;
+        font-size: 45px;
+        color: black
+    }
+}
+
+section{
+    
+        .sin-color{
+            background-color: white;
+        }
+    
+}
+
+.mapas{
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}

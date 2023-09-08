@@ -1,0 +1,153 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+* {
+  background-color: #fafafa; }
+
+header nav ul {
+  color: #111010; }
+  header nav ul li {
+    font-size: 25px; }
+
+header h1 {
+  background-color: #788899;
+  padding: 10px;
+  color: black; }
+
+body section h2 {
+  text-align: center;
+  font-size: 65px;
+  background-color: #788899; }
+  body section h2 p {
+    font-size: 65px; }
+    body section h2 p #somos {
+      font-size: 65px; }
+
+body p {
+  font-size: 25px;
+  text-align: center;
+  background-color: #788899; }
+
+.barra {
+  text-align: center;
+  font-size: 30px;
+  background-color: #788899; }
+  .barra legend {
+    font-size: 45px;
+    background-color: #788899; }
+
+.fotos-inicio {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 30px; }
+
+#referencias {
+  display: flex;
+  justify-content: space-evenly; }
+
+.redes {
+  display: flex;
+  justify-content: space-evenly; }
+
+div ul {
+  list-style-type: none;
+  text-align: center;
+  font-size: 25px;
+  background-color: #788899; }
+  div ul li {
+    background-color: #788899; }
+
+section .texto {
+  font-size: 45px;
+  text-align: center; }
+
+header h1 {
+  background-color: #788899;
+  padding: 10px;
+  color: black; }
+
+section ul {
+  list-style-type: none;
+  font-size: 25px;
+  text-align: left; }
+
+section ul .imagen-familiares {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
+
+section p {
+  text-align: left; }
+
+header h1 {
+  background-color: #788899;
+  padding: 10px;
+  color: black; }
+
+section .oferta {
+  padding-left: 20%; }
+
+section .aclaracion {
+  text-align: center;
+  margin: 15px; }
+
+body h1 {
+  background-color: #788899;
+  padding: 10px;
+  color: black; }
+
+div h2 {
+  background-color: #788899;
+  font-size: 45px;
+  color: black; }
+
+section .sin-color {
+  background-color: white; }
+
+.mapas {
+  margin: 20px;
+  display: flex;
+  justify-content: space-evenly; }
+
+.formulario {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: end; }
+
+div h6 {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px; }
+
+.boton {
+  font-size: 30px;
+  display: flex;
+  justify-content: space-evenly; }
+
+@media screen and (max-width: 700px) {
+  body .fotos-inicio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px; }
+  body section p {
+    text-align: center; }
+  #referencias {
+    display: none; }
+  .desaparecen {
+    display: none; }
+  section ul li {
+    text-align: center; }
+  .mapas {
+    display: flex;
+    flex-direction: column; }
+  body #contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center; } }

@@ -1,0 +1,28 @@
+@import "utils/mixin" ;
+section{
+    p{
+        text-align: left;
+        
+    }
+}
+
+header{
+    h1{
+        @include titulos
+    }
+}
+
+section{
+        .oferta{
+           padding-left: 20%;
+           }  
+}
+
+section{
+    
+        .aclaracion{
+            text-align: center;
+            margin: 15px;
+        }
+    
+}
