@@ -12,17 +12,24 @@ header{
     }
 }
 
-section{
-        .oferta{
-           padding-left: 20%;
-           }  
+.oferta{
+    @include fotos
 }
-
 section{
     
-        .aclaracion{
+        #aclaracion{
             text-align: center;
             margin: 15px;
+        
         }
     
 }
+
+
+.cpaquete{
+        text-align: center;
+        .enviar{
+            font-size: 25px;
+        }
+}
+

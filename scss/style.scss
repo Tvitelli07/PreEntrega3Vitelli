@@ -1,5 +1,6 @@
 @import "base/reset.scss";
 @import "utils/variables";
+@import "utils/mq";
 
 @import "layout/index.scss";
 @import "layout/viajes";
@@ -7,4 +8,4 @@
 @import "layout/quienessomos" ;
 @import "layout/contacto" ;
 
-@import "utils/mq"
+

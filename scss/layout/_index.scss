@@ -1,18 +1,22 @@
 @import "utils/_mixin" ;
+
 header{
     nav{ 
+        
+        margin: 10px;
         ul{ color: rgb(17, 16, 16);
             li{
                font-size: 25px;
                
-               }
+                }
                
             }
         }
 }
 header{
     h1{
-        @include titulos
+        
+        @include titulos;
     }
 }
 
@@ -21,29 +25,38 @@ section{
     h2{ text-align: center;
         font-size: 65px;
         background-color: $color-principal;
-        p{ font-size: 65px;
-            #somos{
-                font-size: 65px;
+        margin: 20px;
+        p{ 
+            font-size: 65px;    
+            text-align: center;
             }
-        }
 
         }
     }
 }
 
 body{
-p{
-    font-size: 25px;
+    .aca{
+        margin: 20px;
+        text-align: center;
+    }
+}
+
+body{
+    p{
+    font-size: 35px;
     text-align: center;
     background-color: $color-principal;
+   
     
-}
+    }
 }
 
 .barra {
     text-align: center;
     font-size: 30px;
     background-color: $color-principal;
+    margin: 20px;   
     legend{
         font-size: 45px;
         background-color: $color-principal;
@@ -51,31 +64,38 @@ p{
     }
    }
 
-.fotos-inicio{
+#fotos-inicio{
     @include fotos;
+    
     margin: 30px;
     }
+
+
+
 
 #referencias{
     @include fotos
 }
 
-.redes{
-
-display: flex;
-justify-content: space-evenly;
-}
-div{    
-    ul{ 
-        list-style-type: none;
-        text-align: center;
-        font-size: 25px;
-        background-color: $color-principal;
-        li{
+footer{
+    background-color: $color-principal;
+    display: flex;
+    flex-direction: row;           
+    justify-content: space-evenly;
+    
+    margin: 20px;       
+    div{ background-color: $color-principal;
+        ul{ 
             background-color: $color-principal;
-        }
+            font-size: 25px;
+            
 
-        
+            li{
+                list-style-type: none;
+                background-color: $color-principal;
+                font-size: 30px;
+                }
+        }
     }
 }
 

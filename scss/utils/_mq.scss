@@ -1,51 +1,64 @@
-// MD de Celular
-@media screen and (max-width:700px){
-    body{
-        .fotos-inicio{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            margin: 40px;
-            
+@media (max-width: 700px) {
+    /*estilos para dispositivos móviles*/
+    *{
+        body{
+            #fotos-inicio{
+                
             }
         }
-   
+        
+        body{
+            .aca{
+                display: none;
+            }
+            }
+        }
 
-    body{
-        section{
-            p{
-                text-align: center;
+        body{
+            .referencia{
+                display: none;
             }
         }
+
+        body{
+            .desaparecen{
+                display: none;
+            }
+        }
+
+        body{
+            .desaparecent{
+                display: none;
+            }
+        }
+
+        body{
+            .queda{
+                width: 500px;
+            }
+        }
+
+        body{
+            .tambien{
+                display: none;
+            }
+        }
+
+       
     }
-
   
-    #referencias{
-            display: none;
-    }
-
-    .desaparecen{
-        display: none;
+  
+  /* Estilos para tablets (entre 600px y 900px de ancho)*/ 
+  @media (min-width: 701px) and (max-width: 1024px) {
+    estilos para tablets
+    *{
+        text-align: center;
     }
     
-    section{
-        ul{
-            li{
-                text-align: center;
-            }
-        }
+    .desaparecent{
+        display: none;
     }
-    .mapas{
-        display: flex;
-        flex-direction: column;
 
-    }
-    body{
-        #contacto{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            align-content: center;
-        }
-    }
-}      
+    
+    
+}

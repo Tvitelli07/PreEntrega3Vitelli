@@ -1,63 +1,103 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 * {
   background-color: #fafafa; }
 
-header nav ul {
-  color: #111010; }
-  header nav ul li {
-    font-size: 25px; }
+@media (max-width: 700px) {
+  /*estilos para dispositivos móviles*/
+  * body .aca {
+    display: none; }
+  body .referencia {
+    display: none; }
+  body .desaparecen {
+    display: none; }
+  body .desaparecent {
+    display: none; }
+  body .queda {
+    width: 500px; }
+  body .tambien {
+    display: none; } }
+
+/* Estilos para tablets (entre 600px y 900px de ancho)*/
+@media (min-width: 701px) and (max-width: 1024px) {
+  estilos para tablets
+* {
+    text-align: center; }
+  .desaparecent {
+    display: none; } }
+
+header nav {
+  margin: 10px; }
+  header nav ul {
+    color: #111010; }
+    header nav ul li {
+      font-size: 25px; }
 
 header h1 {
   background-color: #788899;
   padding: 10px;
-  color: black; }
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 body section h2 {
   text-align: center;
   font-size: 65px;
-  background-color: #788899; }
+  background-color: #788899;
+  margin: 20px; }
   body section h2 p {
-    font-size: 65px; }
-    body section h2 p #somos {
-      font-size: 65px; }
+    font-size: 65px;
+    text-align: center; }
+
+body .aca {
+  margin: 20px;
+  text-align: center; }
 
 body p {
-  font-size: 25px;
+  font-size: 35px;
   text-align: center;
   background-color: #788899; }
 
 .barra {
   text-align: center;
   font-size: 30px;
-  background-color: #788899; }
+  background-color: #788899;
+  margin: 20px; }
   .barra legend {
     font-size: 45px;
     background-color: #788899; }
 
-.fotos-inicio {
+#fotos-inicio {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
   margin: 30px; }
 
 #referencias {
   display: flex;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
 
-.redes {
+footer {
+  background-color: #788899;
   display: flex;
-  justify-content: space-evenly; }
-
-div ul {
-  list-style-type: none;
-  text-align: center;
-  font-size: 25px;
-  background-color: #788899; }
-  div ul li {
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 20px; }
+  footer div {
     background-color: #788899; }
+    footer div ul {
+      background-color: #788899;
+      font-size: 25px; }
+      footer div ul li {
+        list-style-type: none;
+        background-color: #788899;
+        font-size: 30px; }
 
 section .texto {
   font-size: 45px;
@@ -66,7 +106,9 @@ section .texto {
 header h1 {
   background-color: #788899;
   padding: 10px;
-  color: black; }
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 section ul {
   list-style-type: none;
@@ -80,38 +122,79 @@ section ul .imagen-familiares {
   justify-content: space-evenly;
   flex-wrap: wrap; }
 
+section ul div img:hover {
+  transform: scale(1.3); }
+
+section ul li {
+  margin: 20px;
+  font-size: 30px;
+  color: black; }
+
 section p {
   text-align: left; }
 
 header h1 {
   background-color: #788899;
   padding: 10px;
-  color: black; }
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px; }
 
-section .oferta {
-  padding-left: 20%; }
+.oferta {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; }
 
-section .aclaracion {
+section #aclaracion {
   text-align: center;
   margin: 15px; }
+
+.cpaquete {
+  text-align: center; }
+  .cpaquete .enviar {
+    font-size: 25px; }
 
 body h1 {
   background-color: #788899;
   padding: 10px;
-  color: black; }
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 div h2 {
   background-color: #788899;
   font-size: 45px;
-  color: black; }
+  color: black;
+  margin: 15px; }
 
 section .sin-color {
   background-color: white; }
+
+section p {
+  margin: 20px; }
 
 .mapas {
   margin: 20px;
   display: flex;
   justify-content: space-evenly; }
+
+footer {
+  background-color: #788899;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  footer div {
+    background-color: #788899; }
+    footer div ul {
+      background-color: #788899;
+      font-size: 25px; }
+      footer div ul li {
+        list-style-type: none;
+        background-color: #788899; }
+
+#contacto {
+  display: flex;
+  flex-direction: column; }
 
 .formulario {
   font-size: 20px;
@@ -119,35 +202,16 @@ section .sin-color {
   justify-content: center;
   align-items: end; }
 
-div h6 {
-  font-size: 25px;
-  padding: 0px;
-  margin: 0px; }
+div fieldset form p {
+  background-color: lightgray; }
 
 .boton {
   font-size: 30px;
   display: flex;
   justify-content: space-evenly; }
 
-@media screen and (max-width: 700px) {
-  body .fotos-inicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 40px; }
-  body section p {
-    text-align: center; }
-  #referencias {
-    display: none; }
-  .desaparecen {
-    display: none; }
-  section ul li {
-    text-align: center; }
-  .mapas {
-    display: flex;
-    flex-direction: column; }
-  body #contacto {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center; } }
+div form input {
+  font-size: 25px; }
+
+div form select {
+  font-size: 25px; }
