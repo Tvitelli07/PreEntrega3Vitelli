@@ -1,6 +1,6 @@
 @media (max-width: 700px) {
     /*estilos para dispositivos móviles*/
-    *{
+    
         body{
             #fotos-inicio{
                 
@@ -12,7 +12,7 @@
                 display: none;
             }
             }
-        }
+        
 
         body{
             .referencia{
@@ -45,12 +45,14 @@
         }
 
        
+        *{
+            text-align: center;
+        }
     }
   
-  
-  /* Estilos para tablets (entre 600px y 900px de ancho)*/ 
+  /* Estilos para tablets */ 
   @media (min-width: 701px) and (max-width: 1024px) {
-    estilos para tablets
+    
     *{
         text-align: center;
     }

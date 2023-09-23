@@ -10,7 +10,7 @@
 
 @media (max-width: 700px) {
   /*estilos para dispositivos móviles*/
-  * body .aca {
+  body .aca {
     display: none; }
   body .referencia {
     display: none; }
@@ -21,12 +21,13 @@
   body .queda {
     width: 500px; }
   body .tambien {
-    display: none; } }
+    display: none; }
+  * {
+    text-align: center; } }
 
-/* Estilos para tablets (entre 600px y 900px de ancho)*/
+/* Estilos para tablets */
 @media (min-width: 701px) and (max-width: 1024px) {
-  estilos para tablets
-* {
+  * {
     text-align: center; }
   .desaparecent {
     display: none; } }
@@ -78,10 +79,9 @@ body p {
   flex-wrap: wrap;
   margin: 30px; }
 
-#referencias {
+div .referencias {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap; }
+  justify-content: center; }
 
 footer {
   background-color: #788899;

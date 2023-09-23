@@ -73,8 +73,11 @@ body{
 
 
 
-#referencias{
-    @include fotos
+div{
+    .referencias{
+        display: flex;
+        justify-content: center;
+    }
 }
 
 footer{
